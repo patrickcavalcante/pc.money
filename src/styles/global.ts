@@ -29,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background: var(---background);
-    -webkit-font-smothing: antialiased;
+    -webkit-font-smoothing: antialiased;
   }
 
   body, input, textarea, button {
