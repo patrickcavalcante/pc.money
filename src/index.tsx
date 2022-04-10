@@ -16,7 +16,15 @@ createServer({
           title: 'Freelance de website',
           type: 'deposit',
           category: 'Dev',
-          amount: 800,
+          amount: 1800,
+          createdAt: new Date('2022-08-04 09:00:00')
+        },
+        {
+          id: 2,
+          title: 'Pagamento Energia',
+          type: 'withdraw',
+          category: 'Conta',
+          amount: 400,
           createdAt: new Date('2022-08-04 09:00:00')
         }
       ]
